@@ -1,6 +1,6 @@
 package com.company;
 
-public class SeleccionFutbol {
+public abstract class SeleccionFutbol {
     //Atributos de la clase
     protected  int id;
     protected  String nombre;
@@ -63,5 +63,9 @@ public class SeleccionFutbol {
     public void viajar(){
         System.out.println(getNombre()+" viaja");
     }
+
+    public abstract void entrenamiento();
+
+
 
 }
